@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1059872066735560684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5855568570640378694}
+  - component: {fileID: 7459828278282131424}
+  m_Layer: 0
+  m_Name: SaveSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5855568570640378694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059872066735560684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.808997, y: 6.289199, z: 30.569468}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7459828278282131424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059872066735560684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e55e605f97fbc49ac8eb3338f678ddee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StackList: {fileID: 11400000, guid: b21803059f03d13469ae130833820398, type: 2}
+  Values_PurchaseZonePrices: {fileID: 11400000, guid: 8e2491b54542f48e8a567204dd2e6741, type: 2}
+  Values_TableStackCounts: {fileID: 11400000, guid: dc87f338d3afa455da314201a8602d45, type: 2}
+  Var_Int_MapLevel: {fileID: 11400000, guid: a9c50f07d18154809bf6a54e83e5abc3, type: 2}
+  Var_Int_Money: {fileID: 11400000, guid: 9f6d150d145e8481e89e6bbba9933724, type: 2}
+  Var_Int_OnboardingState: {fileID: 11400000, guid: 2f2707e1e42754b36adeee2e91abaaf3, type: 2}
+  Var_Bool_CashierPurchased: {fileID: 0}
+  Var_Float_CashierSpeed: {fileID: 0}
+  Var_Float_PlayerSpeed: {fileID: 11400000, guid: 025f47a017e104db38a324fdcde6ed54, type: 2}
+  Var_Float_WorkerSpeed: {fileID: 0}
+  Var_Int_StackCapacity: {fileID: 11400000, guid: 19eec0d7bf52b4dc2b58c476a929182a, type: 2}
+  Level_CashierSpeed: {fileID: 0}
+  Level_WorkerSpeed: {fileID: 0}
+  Level_Capacity: {fileID: 11400000, guid: 63038519e8b244d5e8935bce1aea27a1, type: 2}
+  Level_Speed: {fileID: 11400000, guid: 3c6aa5a062ff649b98be5ada9e4b937e, type: 2}
+  Event_MoneyUpdate: {fileID: 11400000, guid: 5719b4e68eab4472c8db9574eb9b6a5b, type: 2}
+  Event_StackCountUpdate: {fileID: 11400000, guid: 1cff7adb9c8144f7ea3d8825402a756e, type: 2}
+  Event_MapUpdate: {fileID: 11400000, guid: 590834752fc0943ae923685e681e20f8, type: 2}
+  Event_CashierPurchased: {fileID: 0}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8526733710717205525
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8526733710717205527}
+  - component: {fileID: 8526733710717205544}
+  m_Layer: 0
+  m_Name: ObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8526733710717205527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526733710717205525}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.0992217, y: -0.93625563, z: 60.783783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8526733710717205544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526733710717205525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67111173936742f43b68657b1d21f51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pools:
+  - tag: Stack
+    prefab: {fileID: 108800385327375634, guid: 749c6473df0bd7d44894625db737ada8, type: 3}
+    size: 20
+  - tag: Customer
+    prefab: {fileID: 1001734604468099843, guid: 48227935dcf56b048a3292d525ffdef7, type: 3}
+    size: 30
+  - tag: DollarSprite
+    prefab: {fileID: 3468494795996382813, guid: 4a9c8be2c7e1443e4bb79f5f09c1ff4e, type: 3}
+    size: 30
+  - tag: DollarText
+    prefab: {fileID: 332355535628120767, guid: a99d722e1e3ed465493d6289c14a09dc, type: 3}
+    size: 10
+  - tag: DollarVIP
+    prefab: {fileID: 765801672328084054, guid: 311cfcb38a2414577976f8d45822974b, type: 3}
+    size: 10
+  - tag: Dollar
+    prefab: {fileID: 765801672328084054, guid: c13afa3b334214b139cee22b98ac242a, type: 3}
+    size: 10
